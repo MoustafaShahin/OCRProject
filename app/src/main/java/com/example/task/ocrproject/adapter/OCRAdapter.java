@@ -1,4 +1,4 @@
-package com.example.moustafashahin.ocrproject.Adapter;
+package com.example.task.ocrproject.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,11 +8,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.moustafashahin.ocrproject.Model.Item;
-import com.example.moustafashahin.ocrproject.R;
+import com.example.task.ocrproject.model.answers.Item;
+import com.example.task.ocrproject.R;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.example.moustafashahin.ocrproject;
+package com.example.task.ocrproject.ui;
 
 import android.Manifest;
 import android.content.Intent;
@@ -14,15 +14,13 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.task.ocrproject.R;
 import com.google.android.gms.vision.CameraSource;
 import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.text.TextBlock;
 import com.google.android.gms.vision.text.TextRecognizer;
 
 import java.io.IOException;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 

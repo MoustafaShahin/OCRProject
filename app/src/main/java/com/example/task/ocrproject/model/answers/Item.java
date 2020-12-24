@@ -1,5 +1,5 @@
 
-package com.example.moustafashahin.ocrproject.Model;
+package com.example.task.ocrproject.model.answers;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;

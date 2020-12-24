@@ -1,5 +1,4 @@
-
-package com.example.moustafashahin.ocrproject.Model;
+package com.example.task.ocrproject.model.questions;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

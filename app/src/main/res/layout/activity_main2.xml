@@ -5,7 +5,24 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity">
+    tools:context=".ui.Main2Activity">
+    <RelativeLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/rlbar"
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
     <EditText
         android:maxLines="10"
         android:layout_width="match_parent"

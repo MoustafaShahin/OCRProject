@@ -1,4 +1,4 @@
-package com.example.moustafashahin.ocrproject;
+package com.example.task.ocrproject;
 
 import org.junit.Test;
 

@@ -13,14 +13,17 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content">
       <TextView
-          android:textSize="25sp"
+          android:textSize="16sp"
+          android:text="fsfsfjslfslkfslfsdlkfjdslfjsdl"
           android:layout_width="match_parent"
+          android:layout_margin="10dp"
           android:layout_height="wrap_content"
           android:id="@+id/title"/>
       <TextView
           android:textColor="@android:color/holo_blue_bright"
-
-          android:textSize="25sp"
+android:text="sfsfsfsfslkfjsdlkfjskldfjkldsfjsdklfjsd"
+          android:textSize="16sp"
+          android:layout_marginHorizontal="10dp"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:id="@+id/link"/>

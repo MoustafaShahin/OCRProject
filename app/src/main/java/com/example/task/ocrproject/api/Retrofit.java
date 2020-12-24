@@ -1,4 +1,4 @@
-package com.example.moustafashahin.ocrproject.api;
+package com.example.task.ocrproject.api;
 
 import retrofit2.converter.gson.GsonConverterFactory;
 //https://api.stackexchange.com/2.2/search/advanced?order=desc&sort=votes&title=android%20null&site=stackoverflow

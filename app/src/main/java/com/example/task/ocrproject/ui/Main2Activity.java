@@ -1,4 +1,4 @@
-package com.example.moustafashahin.ocrproject;
+package com.example.task.ocrproject.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -9,14 +9,14 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.moustafashahin.ocrproject.Adapter.OCRAdapter;
-import com.example.moustafashahin.ocrproject.Model.Item;
-import com.example.moustafashahin.ocrproject.Model.MyResponse;
-import com.example.moustafashahin.ocrproject.api.Retrofit;
-import com.example.moustafashahin.ocrproject.api.StackService;
+import com.example.task.ocrproject.R;
+import com.example.task.ocrproject.adapter.OCRAdapter;
+import com.example.task.ocrproject.model.answers.Item;
+import com.example.task.ocrproject.model.answers.MyResponse;
+import com.example.task.ocrproject.api.Retrofit;
+import com.example.task.ocrproject.api.StackService;
 
 import java.util.ArrayList;
 

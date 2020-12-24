@@ -6,8 +6,26 @@
     android:layout_height="match_parent"
 
 
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
+    <RelativeLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/rlbar"
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scan"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
     <SurfaceView
+        android:layout_below="@id/rlbar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
        android:id="@+id/surface" />
